@@ -1,0 +1,23 @@
+# AdminMode Configuration
+
+# Whether to announce a message when a player enters or leaves admin mode
+announce-enter: true
+announce-leave: true
+
+# The message to display when the player enters or leaves admin mode.
+# Will only be shown if the values above are true.
+# You can use '&' for colour formatting.
+announce-enter-message: "&e{name} has &aenabled &eAdmin Mode for {reason}"
+announce-leave-message: "&e{name} has &cdisabled &eAdmin Mode for {reason}"
+
+# Whether or not to log commands executed by a player in admin mode to a file
+log-commands: true
+
+# Whether or not to log creative inventory actions by a player in admin mode to a file.
+# WARNING: THIS IS UNTESTED. It could spam the log files, i'm not sure.
+log-creative-inventory-actions: true
+
+# A list of permissions to add to the player when they enter admin mode.
+# These same permissions will be removed when they exit admin mode.
+admin-mode-permissions:
+  - bukkit.command.gamemode

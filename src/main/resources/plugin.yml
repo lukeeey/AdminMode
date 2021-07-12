@@ -1,0 +1,13 @@
+name: ${project.name}
+version: ${project.version}
+description: Admin mode!
+main: io.github.lukeeey.adminmode.AdminModePlugin
+commands:
+  adminmode:
+    description: Toggle admin mode
+    usage: /adminmode <reason>
+    permission: adminmode.toggle
+permissions:
+  adminmode.toggle:
+    default: op
+    description: Allows you to toggle admin mode

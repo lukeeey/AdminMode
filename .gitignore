@@ -1,0 +1,6 @@
+.idea/
+target/
+build/
+*.iml
+dependency-reduced-pom.xml
+/config.yml
