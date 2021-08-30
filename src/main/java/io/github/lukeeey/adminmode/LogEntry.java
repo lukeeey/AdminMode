@@ -1,4 +1,4 @@
-package io.starlightmc.adminmode;
+package io.github.lukeeey.adminmode;
 
 import lombok.Value;
 
